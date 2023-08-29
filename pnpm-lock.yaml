@@ -12,6 +12,7 @@ specifiers:
   eslint-plugin-vue: ^9.17.0
   husky: ^8.0.3
   lint-staged: ^14.0.1
+  normalize.css: ^8.0.1
   pinia: ^2.1.6
   prettier: ^3.0.2
   sass: ^1.66.1
@@ -23,6 +24,7 @@ specifiers:
 
 dependencies:
   axios: registry.npmmirror.com/axios/1.5.0
+  normalize.css: registry.npmmirror.com/normalize.css/8.0.1
   pinia: registry.npmmirror.com/pinia/2.1.6_typescript@5.2.2+vue@3.3.4
   vue: registry.npmmirror.com/vue/3.3.4
   vue-router: registry.npmmirror.com/vue-router/4.2.4_vue@3.3.4
@@ -1902,6 +1904,12 @@ packages:
     version: 3.0.0
     engines: {node: '>=0.10.0'}
     dev: true
+
+  registry.npmmirror.com/normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/normalize.css/-/normalize.css-8.0.1.tgz}
+    name: normalize.css
+    version: 8.0.1
+    dev: false
 
   registry.npmmirror.com/npm-run-path/5.1.0:
     resolution: {integrity: sha512-sJOdmRGrY2sjNTRMbSvluQqg+8X7ZK61yvzBEIDhz4f8z1TZFYABsqjjCBd/0PUNE9M6QDgHJXQkGUEm7Q+l9Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/npm-run-path/-/npm-run-path-5.1.0.tgz}

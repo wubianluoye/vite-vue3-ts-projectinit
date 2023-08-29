@@ -9,6 +9,7 @@ export default defineConfig({
     alias: {
       "@": resolve(__dirname, "src"),
     },
+    extensions: [".js", ".ts", ".vue"],
   },
   server: {
     port: 9923,

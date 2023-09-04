@@ -27,7 +27,7 @@ const homeStore = useHomeStore()
 const homeName = ref("hello home")
 
 function test() {
-  const a1 = 100
+  const a1 = 102
   console.log(a1)
 }
 </script>

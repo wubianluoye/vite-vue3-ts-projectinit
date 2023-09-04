@@ -8,7 +8,9 @@
     "dev": "vite --open --mode development",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint": "eslint --fix . && prettier --write ."
+    "lint:lint-staged": "lint-staged",
+    "lint": "eslint --fix . && prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "axios": "^1.5.0",
@@ -26,18 +28,13 @@
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-vue": "^9.17.0",
-    "husky": "^8.0.3",
+    "husky": "^8.0.0",
     "lint-staged": "^14.0.1",
     "prettier": "^3.0.2",
     "sass": "^1.66.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,vue}": [

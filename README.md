@@ -19,7 +19,7 @@ npm start
 5. axios
 6. eslint + prettier
 7. typescript
-8. husky + lint-staged（未完成）
+8. husky + lint-staged
 
 配置好了的eslint和prettier的初初初始项目
 

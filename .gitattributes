@@ -1,0 +1,9 @@
+# 设置换行符的行为
+* text=auto
+
+# 指定文件使用 LF 换行符
+*.js eol=lf
+*.jsx eol=lf
+*.ts eol=lf
+*.tsx eol=lf
+*.vue eol=lf

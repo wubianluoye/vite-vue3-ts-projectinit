@@ -25,11 +25,6 @@ const router = useRouter()
 const homeStore = useHomeStore()
 
 const homeName = ref("hello home")
-
-function test() {
-  const a1 = 102
-  console.log(a1)
-}
 </script>
 
 <style scoped lang="scss">

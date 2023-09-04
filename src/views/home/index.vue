@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from "vue"
+import { ref } from "vue"
 import HelloWorld from "@/components/HelloWorld.vue"
 import { useHomeStore } from "@/store/index"
 import { useRouter } from "vue-router"

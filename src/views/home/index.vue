@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue"
+import { ref, computed } from "vue"
 import HelloWorld from "@/components/HelloWorld.vue"
 import { useHomeStore } from "@/store/index"
 import { useRouter } from "vue-router"
@@ -25,6 +25,11 @@ const router = useRouter()
 const homeStore = useHomeStore()
 
 const homeName = ref("hello home")
+
+function test() {
+  const a1 = 100
+  console.log(a1)
+}
 </script>
 
 <style scoped lang="scss">

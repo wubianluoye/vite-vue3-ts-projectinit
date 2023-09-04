@@ -8,7 +8,7 @@
     "dev": "vite --open --mode development",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "lint:lint-staged": "lint-staged",
+    "lint:lint-staged": "npx lint-staged",
     "lint": "eslint --fix . && prettier --write .",
     "prepare": "husky install"
   },
